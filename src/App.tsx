@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <div class="container">
       <h1 class="logo">
-        App
+        APP
       </h1>
     </div>
   )
