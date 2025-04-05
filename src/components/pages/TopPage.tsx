@@ -5,7 +5,7 @@ export const TopPage = () => {
     return (
         <div>
             <header>
-                <div class="header-row">
+                <div class="container header-row">
                     <p>スケジュール管理</p>
                     <nav>
                         <ul class="nav-list">
