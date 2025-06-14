@@ -3,10 +3,10 @@ import './TopPage.css'
 
 export const TopPage = () => {
     return (
-        <div>
-            <header>
+        <div class="page-root">
+            <header class="header">
                 <div class="container header-row">
-                    <p>スケジュール管理</p>
+                    <p class="logo">スケジュール管理</p>
                     <nav>
                         <ul class="nav-list">
                             <li>利用説明</li>

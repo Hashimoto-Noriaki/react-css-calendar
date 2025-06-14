@@ -5,6 +5,10 @@
     padding: 0 16px;
 }
 
+.page-root {
+    position:relative;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -15,6 +19,16 @@
     .container {
         max-width: 1024px;
     }
+}
+
+.header {
+    line-height:50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    z-index:1000;
 }
 
 .header-row {
@@ -28,4 +42,18 @@
     display: flex;
     gap: 20px;
     list-style: none;
+    color: #3f6212; 
+}
+
+.logo {
+  color          : #ffffff;
+  text-shadow    : 
+      1px  1px 1px #3f6212,
+    -1px  1px 1px #3f6212,
+      1px -1px 1px #3f6212,
+    -1px -1px 1px #3f6212,
+      1px  0px 1px #3f6212,
+      0px  1px 1px #3f6212,
+    -1px  0px 1px #3f6212,
+      0px -1px 1px #3f6212;
 }
